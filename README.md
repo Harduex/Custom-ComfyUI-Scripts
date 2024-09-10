@@ -4,9 +4,9 @@ These custom ComfyUI starting scripts (.sh) are designed to make it easier to st
 
 1. Make sure you have ComfyUI installed on your system.
 2. Download the scripts from this repository.
-3. Place the scripts in the root folder of your ComfyUI installation.
+3. Place all the starting scripts in the root folder of your ComfyUI installation.
 ```bash
-cp ./*.sh <path_to_comfyui>
+cp ./start*.sh <path_to_comfyui>
 ```
 
 ## Available Scripts
@@ -14,6 +14,7 @@ cp ./*.sh <path_to_comfyui>
 1. `start.sh`: This script starts the ComfyUI application using the GPU (default).
 2. `start_cpu.sh`: This script starts the ComfyUI application using the CPU.
 3. `start_lowvram.sh`: This script starts the ComfyUI application with low VRAM usage. (Useful for running large models with limited VRAM).
+4. `add_swap.sh`: This script adds a temporary swap file to the system. (Useful for running large models with limited RAM).
 
 ## Usage
 
