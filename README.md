@@ -15,6 +15,7 @@ cp ./start*.sh <path_to_comfyui>
 2. `start_cpu.sh`: This script starts the ComfyUI application using the CPU.
 3. `start_lowvram.sh`: This script starts the ComfyUI application with low VRAM usage. (Useful for running large models with limited VRAM).
 4. `add_swap.sh`: This script adds a temporary swap file to the system. (Useful for running large models with limited RAM).
+5. `remove_swap.sh`: This script removes the temporary swap file from the system.
 
 ## Usage
 
